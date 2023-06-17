@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	background-color: lightgrey;
+	font-family: Times New Roman;
+	font-size: 100%;
+}
+
+.caixa {
+	margin: auto;
+	width: 1200px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+nav {
+	width: 250px;
+	height: 500px;
+	background-color: darkcyan;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+img {
+	width: 230px;
+	padding: 10px 0;
+}
+
+.login {
+	width: 360px;
+    margin: 450px auto;
+    position: relative;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    padding: 40px;
+    bottom: 300px;
+}
+
+select {
+	height: 25px;
+}
+
+section {
+	width: 870px;
+	height: 500px;
+	margin-left: 10px;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+ul.menu, .submenu {
+	list-style-type: none;
+}
+
+ul.menu li {
+	width: 240px;
+	height: 50px;
+	line-height: 50px;
+	background-color: darkcyan;
+	color: white;
+	margin-top: 5px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+
+ul.menu li:hover {
+	background-color: orange;
+	transition: 200ms;
+}
+
+.button {
+	width: 100px;
+	height: 25px;
+	border: 1px solid #ddd;
+	background-color: darkcyan;
+	color: white;
+	cursor: pointer;
+}
+
+.campo {
+	height: 25px;
+	margin-top: 10px;
+}
+
+
+strong {
+	font-size: 30px;
+	padding: 35px;
+}
+
+article {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: #eee;
+	margin-bottom: 5px;
+}
+
+footer {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.pesquisa {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0;
+}
